@@ -1,0 +1,263 @@
+[
+  {
+    "id": "sesh",
+    "img": "/wp-content/themes/dbp/assets/images/sesh2.jpg",
+    "title": "SESH",
+    "summary": "A responsive exercise and fitness tracking web app built on the MERN stack.",
+    "stack": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "Redux Toolkit",
+      "Tailwind CSS"
+    ],
+    "description": [
+      "A full-stack application for logging workouts, tracking sessions and reviewing exercise history.",
+      "Authentication combines Passport, Google OAuth 2.0 and JWTs, with bcryptjs for password hashing.",
+      "The React frontend uses Redux Toolkit to manage workout data and React Router for navigation. React Hook Form handles form state and validation, while react-day-picker and date-fns support date selection and formatting.",
+      "The interface combines Radix UI primitives and shadcn-style components with Tailwind CSS.",
+      "An Express API and Mongoose handle the backend and database layer, with Resend providing transactional email.",
+      "Test login",
+      "Username: test@email.com",
+      "Password: 1234"
+    ],
+    "youtube": "https://www.youtube.com/embed/tcK6Q5m7Trk",
+    "github": "https://github.com/DB-1984/sesh-app.onrender.com",
+    "liveDemo": "https://sesh.davidbrandondev.com/",
+    "demoNote": ""
+  },
+  {
+    "id": "linkstore",
+    "img": "/wp-content/themes/dbp/assets/images/linkstore-bg.jpg",
+    "title": "LinkStore",
+    "summary": "A tag-based bookmarking app built with Next.js and React for organising useful links into a searchable resource library.",
+    "stack": [
+      "Next.js",
+      "React",
+      "MongoDB",
+      "NextAuth",
+      "Tailwind CSS",
+      "MDX"
+    ],
+    "description": [
+      "Users save and organise links with custom tags, creating a personal resource library without relying on folders or crowded bookmark bars.",
+      "Built with Next.js 16 and React 19, with MongoDB and Mongoose providing the data layer.",
+      "Authentication uses NextAuth with the MongoDB adapter and bcryptjs for password hashing. A custom password reset flow uses secure database tokens and reset links delivered through Resend.",
+      "The interface combines Radix UI primitives and shadcn-style components with Tailwind CSS, Lucide icons, Sonner notifications and Vaul drawers.",
+      "MDX supports rich, formatted content alongside saved resources. The application is written in JavaScript.",
+      "Test login",
+      "Username: test3@email.com",
+      "Password: 1234"
+    ],
+    "youtube": "https://www.youtube.com/embed/Z-iFv1SJNik",
+    "github": "https://github.com/DB-1984/linkstore-app.onrender.com",
+    "liveDemo": "https://linkstore.davidbrandondev.com/",
+    "demoNote": ""
+  },
+  {
+    "id": "scroll",
+    "img": "/wp-content/themes/dbp/assets/images/scroll-2.jpg",
+    "title": "Scroll",
+    "summary": "A minimalist note-taking app built with Django, with custom tags and a calm, focused interface.",
+    "stack": [
+      "Django",
+      "Python",
+      "PostgreSQL",
+      "Supabase",
+      "django-allauth"
+    ],
+    "description": [
+      "A note-taking application built with Django 6, designed around a clean interface for writing and organising notes with tags.",
+      "Supabase-hosted PostgreSQL provides the relational database, with environment-based configuration and a local SQLite fallback for development.",
+      "Authentication uses django-allauth for login, registration, password resets and Google OAuth.",
+      "Django templates and django-widget-tweaks provide control over form rendering without introducing a separate frontend framework.",
+      "Deployed on Render, with Gunicorn serving the application and WhiteNoise handling static assets.",
+      "Test login",
+      "Username: Example",
+      "Password: PASSWORD_password1234"
+    ],
+    "youtube": "https://www.youtube.com/embed/86NA-kwgsw0",
+    "github": "https://github.com/DB-1984/scroll-app",
+    "liveDemo": "https://scroll-app.onrender.com/",
+    "demoNote": "Hosted on Render’s free tier. After inactivity, the demo may take 30–60 seconds to start. The Supabase database may also be paused, temporarily preventing access."
+  },
+  {
+    "id": "epianos",
+    "img": "/wp-content/themes/dbp/assets/images/epianos.jpg",
+    "title": "ePianos",
+    "summary": "A custom WooCommerce theme and supporting tools for a live UK piano retailer.",
+    "stack": [
+      "WordPress",
+      "WooCommerce",
+      "PHP",
+      "JavaScript",
+      "REST API",
+      "SQL"
+    ],
+    "description": [
+      "A custom-built e-commerce theme focused on lightweight pages, responsive navigation and a product experience tailored to the retailer.",
+      "Product pages feature a custom layout and gallery, Ajax add-to-cart and dynamic add-on modules for related accessories. Custom fields control product videos and alternative product suggestions.",
+      "A searchable video library brings internally produced reviews, demonstrations and tutorials together within the site.",
+      "A custom search plugin serves both the public website and an admin-only knowledge base. It uses a dedicated REST endpoint and custom SQL, with tag-based weighting to improve result relevance.",
+      "Bespoke landing-page forms and a custom modal plugin support specific workflows, alongside Gravity Forms and WP Rocket."
+    ],
+    "youtube": "https://www.youtube.com/embed/vdbkDRON07I",
+    "github": "",
+    "liveDemo": "https://epianos.co.uk/",
+    "demoNote": ""
+  },
+  {
+    "id": "mapper",
+    "img": "/wp-content/themes/dbp/assets/images/mapper-bg.jpg",
+    "title": "Mapper",
+    "summary": "A delivery quotation tool that calculates road distance and pricing from a UK address or postcode.",
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Google Maps APIs"
+    ],
+    "description": [
+      "Built for an instrument retailer, Mapper lets staff search for a UK address or postcode, view its location on a map and generate an estimated delivery price from the showroom.",
+      "Google Places provides address autocomplete, while a Next.js API route contacts the Distance Matrix API using a server-side API key.",
+      "Delivery prices come from a local JSON file of fixed mileage bands, avoiding the need for a database. The origin postcode is configurable through an environment variable.",
+      "A responsive, full-screen map supports floating search and quotation panels. React state manages the selected location, loading indicators, errors and quotation results."
+    ],
+    "youtube": "https://www.youtube.com/embed/ttgnArUTppU",
+    "github": "https://github.com/DB-1984/Mapper-Delivery-Calculation-Tool",
+    "liveDemo": "https://mapper.davidbrandondev.com/",
+    "demoNote": ""
+  },
+  {
+    "id": "blockader",
+    "img": "/wp-content/themes/dbp/assets/images/blockader-bg.jpg",
+    "title": "Blockader",
+    "summary": "An experimental WordPress block theme exploring bold typography, custom blocks and Full Site Editing.",
+    "stack": [
+      "WordPress",
+      "Gutenberg Block API",
+      "JavaScript",
+      "React",
+      "PHP",
+      "CSS",
+      "@wordpress/scripts"
+    ],
+    "description": [
+      "A stripped-back block theme built to explore modern WordPress development through custom templates, template parts and pattern-driven layouts.",
+      "Global styles are managed through theme.json, including responsive typography, spacing and theme-aware CSS variables.",
+      "A dynamic banner block provides editable content and button colour controls, with PHP rendering the frontend.",
+      "A live search block uses debounced requests to the WordPress REST API to display matching posts and pages.",
+      "An associated posts block presents related content with featured images, post type labels and responsive card layouts."
+    ],
+    "youtube": "https://www.youtube.com/embed/kCrWGho5KPo",
+    "github": "https://github.com/DB-1984/Blockader-WordPress-FSE-Theme",
+    "liveDemo": "https://blockader.davidbrandondev.com/",
+    "demoNote": "This is a static demonstration. Live REST search requires a running WordPress backend and is unavailable here."
+  },
+  {
+    "id": "dbwp-pro",
+    "img": "/wp-content/themes/dbp/assets/images/dbwp-bg.jpg",
+    "title": "dbwp.pro",
+    "summary": "A responsive landing-page concept for WordPress services, built with Next.js and Tailwind CSS.",
+    "stack": [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Motion",
+      "Formspree"
+    ],
+    "description": [
+      "A design proof of concept exploring bold visuals, clear service descriptions and straightforward navigation for a WordPress services website.",
+      "The page combines an introductory hero, service cards, a sample project gallery and an enquiry form.",
+      "Six fictional projects demonstrate the gallery layout, with each opening a modal containing an image, summary and placeholder project links.",
+      "Reusable React components handle the gallery, modal, mobile menu and contact form. Lucide icons and subtle Motion animations provide interface detail.",
+      "The form connects to Formspree without a separate backend. Written in JSX with Next.js App Router and Tailwind CSS, the site is deployed as a static build."
+    ],
+    "youtube": "https://www.youtube.com/embed/CGU7GgXgqdk",
+    "github": "https://github.com/DB-1984/DBWP.pro-WordPress-Site-Support-P.O.C",
+    "liveDemo": "https://dbwp.onrender.com/",
+    "demoNote": "A design proof of concept. Gallery projects are fictional and their destination links are placeholders."
+  },
+  {
+    "id": "vaultage",
+    "img": "wp-content/themes/dbp/assets/images/vaultage-bg.jpg",
+    "title": "Vaultage",
+    "summary": "A customisable cloud file storage application built with Express and Supabase.",
+    "stack": [
+      "Node.js",
+      "Express",
+      "JavaScript",
+      "Supabase",
+      "PostgreSQL",
+      "Prisma",
+      "Zod"
+    ],
+    "description": [
+      "A cloud storage project exploring a customisable alternative to services such as Dropbox and Google Drive.",
+      "A Node.js and Express backend uses Supabase for both PostgreSQL data and file storage, with Prisma providing the database access layer.",
+      "Multer handles file uploads, while Zod validates incoming data before it reaches the database.",
+      "Authentication uses JWTs and password hashing to control access to file management features.",
+      "Registration and login flows are implemented, while the live demonstration provides a preconfigured demo login so visitors can try the interface without creating an account."
+    ],
+    "youtube": "https://www.youtube.com/embed/FJbYa4EyLdw",
+    "github": "https://github.com/DB-1984/Vaultage-Cloud-Storage-Solution",
+    "liveDemo": "https://vaultage.davidbrandondev.com/",
+    "demoNote": "The Supabase database may be paused, temporarily preventing access."
+  },
+  {
+    "id": "ecom",
+    "img": "/wp-content/themes/dbp/assets/images/ecom-bg.jpg",
+    "title": "Ecom",
+    "summary": "A bespoke WooCommerce block theme with a bold visual identity and a custom REST-powered contact form.",
+    "stack": [
+      "WordPress",
+      "WooCommerce",
+      "Gutenberg Block API",
+      "JavaScript",
+      "React",
+      "PHP",
+      "CSS",
+      "@wordpress/scripts"
+    ],
+    "description": [
+      "A modern WooCommerce demonstration theme combining vivid orange accents, neutral surfaces and typography-led layouts.",
+      "Custom block templates use native WordPress and WooCommerce blocks to shape the storefront, product pages, search, cart and checkout.",
+      "A custom contact-form block provides an editor preview and a PHP-rendered, accessible frontend form, compiled using WordPress Scripts.",
+      "A dedicated view.js submits the form asynchronously to a custom WordPress REST API endpoint, with honeypot spam protection, validation feedback and an accessible status area."
+    ],
+    "youtube": "https://www.youtube.com/embed/kwAUw_sBzIE",
+    "github": "https://github.com/DB-1984/Ecom",
+    "liveDemo": "https://ecom.davidbrandondev.com/",
+    "demoNote": "This is a static demonstration. WooCommerce transactions and server-side form submissions are unavailable."
+  },
+  {
+    "id": "studio",
+    "img": "/wp-content/themes/dbp/assets/images/folio-bg.jpg",
+    "title": "David Brandon / Dev",
+    "summary": "A custom WordPress portfolio presenting my development work through a precise, typography-led interface.",
+    "stack": [
+      "WordPress",
+      "Block themes",
+      "theme.json",
+      "JavaScript",
+      "CSS",
+      "AOS",
+      "Typed.js",
+      "@wordpress/scripts"
+    ],
+    "description": [
+      "A bespoke WordPress block theme built around a clinical visual style: bold typography, fine borders, neutral surfaces and orange accents.",
+      "Custom templates and template parts define the layout, with theme.json providing shared colours, font families, typography and spacing presets.",
+      "A responsive project grid opens reusable native dialog modals populated from a local JSON file, bringing together project descriptions, technology stacks, video demonstrations and source links.",
+      "A separate profile modal introduces my commercial background, while a Formspree contact form provides a direct enquiry route.",
+      "Typed.js, AOS scroll animations and a CSS code-rain effect add movement. Frontend JavaScript and library styles are bundled using WordPress Scripts."
+    ],
+    "youtube": "",
+    "github": "https://github.com/DB-1984/DB-Portfolio",
+    "liveDemo": "https://davidbrandondev.com/",
+    "demoNote": ""
+  }
+]
